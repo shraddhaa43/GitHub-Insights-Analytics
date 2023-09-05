@@ -45,7 +45,7 @@ Resources:
             Timeout: 40
             WorkerType: G.1X
             Command:
-                Name: glueelt
+                Name: glueetl
                 ScriptLocation: s3://github-scrpits/Datawarehouse_Script.py
 
     
