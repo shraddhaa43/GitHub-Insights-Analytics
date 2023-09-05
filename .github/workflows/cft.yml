@@ -21,7 +21,7 @@ Resources:
         Properties:
             CatalogId: !Ref AWS::AccountId
             DatabaseInput:
-                Name: GitDatabase 
+                Name: gitdatabase 
                    
 
     WorkflowJob:
@@ -53,7 +53,7 @@ Resources:
         Type: AWS::Glue::Crawler
         Properties:
             Name: CrawlingData
-            DatabaseName:  GitDatabase
+            DatabaseName:  gitdatabase
             Targets:
                 S3Targets:
                     - Path: s3://datalakegrp04/datawarehouse/
@@ -78,7 +78,7 @@ Resources:
             StartOnCreation: TRUE
             Description: Trigger to start the crawler
             Actions:
-              - CrawlerName :  CrawlingData
+              - CrawlerName :  crawlingdata
             Predicate: 
               Conditions:
                 - LogicalOperator: EQUALS
@@ -90,7 +90,7 @@ Resources:
     MyAthenaWorkGroup:
         Type: AWS::Athena::WorkGroup
         Properties:
-            Name: Gitworkgrp
+            Name: gitworkgrp
             Description: workgroup for Athena
             State: ENABLED
             WorkGroupConfiguration:
