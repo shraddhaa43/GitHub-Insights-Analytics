@@ -24,12 +24,12 @@ df5=spark.read.parquet("s3://input-datapipeline/commit/part-00000-e66ae499-185d-
 df6 = spark.read.format("jdbc").option("url", "jdbc:mysql://github-database.cpirtk1qzqlt.us-east-1.rds.amazonaws.com:3306/projectdb").option("dbtable", "committable").option("user", "admin").option("password", "project1").load()
 
 maindf = df1.unionByName(df2)
-maindf.coalesce(1).write.parquet("s3://datalakegrp04/datawarehouse/maintable")
+maindf.coalesce(1).write.parquet("s3://datalakegroup04/datawarehouse/maintable")
 
 repodf = df3.unionByName(df4)
-repodf.coalesce(1).write.parquet("s3://datalakegrp04/datawarehouse/repotable")
+repodf.coalesce(1).write.parquet("s3://datalakegroup04/datawarehouse/repotable")
 
 commitdf = df5.unionByName(df6)
-commitdf.coalesce(1).write.parquet("s3://datalakegrp04/datawarehouse/committable")  
+commitdf.coalesce(1).write.parquet("s3://datalakegroup04/datawarehouse/committable")  
 
 job.commit()
