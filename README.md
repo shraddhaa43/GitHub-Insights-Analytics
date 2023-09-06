@@ -9,24 +9,24 @@ For a comprehensive understanding of GitHub's ecosystem, analyze user profiles, 
 ## Data Dictionary
 
 ### Main Table
-hirable: Indicates if the user is looking for a job.
-public_repos: Number of public repositories.
-is_suspicious: Flags whether an account is suspicious.
-updated_at: Timestamp of the latest user information update.
-id: Unique user ID allocated by GitHub.
-blog: URL of the user's public blog.
-followers: Number of followers.
-location: Public location of the user.
-type: Identifies if the account is personal, organizational, or a bot.
-bio: Self-description provided by the user.
-commits: Number of commits made by the user.
-company: Working unit of the user.
-public_gists: Number of public gists.
-name: Nickname/exhibited name of the user.
-created_at: Timestamp of account creation.
-email: Public email address of the user.
-following:  Number of users following. 
-login: Username/registered name of the user.
+- hirable: Indicates if the user is looking for a job. 
+- public_repos: Number of public repositories.
+- is_suspicious: Flags whether an account is suspicious.
+- updated_at: Timestamp of the latest user information update.
+- id: Unique user ID allocated by GitHub.
+- blog: URL of the user's public blog.
+- followers: Number of followers.
+- location: Public location of the user.
+- type: Identifies if the account is personal, organizational, or a bot.
+- bio: Self-description provided by the user.
+- commits: Number of commits made by the user.
+- company: Working unit of the user.
+- public_gists: Number of public gists.
+- name: Nickname/exhibited name of the user.
+- created_at: Timestamp of account creation.
+- email: Public email address of the user.
+- following:  Number of users following. 
+- login: Username/registered name of the user.
 
 ### Repository Table
 full_name: Full name of the repository.
