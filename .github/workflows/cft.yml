@@ -7,13 +7,13 @@ Resources:
         Type: AWS::S3::Bucket
         DeletionPolicy: Delete
         Properties:
-            BucketName: datalakegrp04
+            BucketName: datalakegroup04
 
     MyS3Bucket1:
         Type: AWS::S3::Bucket
         DeletionPolicy: Delete
         Properties:
-            BucketName: outputgrp04
+            BucketName: outputgroup04
         
         
     GlueDatabase:
@@ -56,7 +56,7 @@ Resources:
             DatabaseName:  gitdatabase
             Targets:
                 S3Targets:
-                    - Path: s3://datalakegrp04/datawarehouse/
+                    - Path: s3://datalakegroup04/datawarehouse/
             Role: arn:aws:iam::467280971091:role/LabRole
     
   
@@ -99,5 +99,5 @@ Resources:
                 PublishCloudWatchMetricsEnabled: true
                 RequesterPaysEnabled: true
                 ResultConfiguration:
-                    OutputLocation: s3://outputgrp04/Query/    
+                    OutputLocation: s3://outputgroup04/Query/    
 
