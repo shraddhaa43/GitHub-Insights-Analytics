@@ -29,32 +29,32 @@ For a comprehensive understanding of GitHub's ecosystem, analyze user profiles, 
 - login: Username/registered name of the user.
 
 ### Repository Table
-full_name: Full name of the repository.
-id: Repository ID allocated by GitHub.
-description: Description of the repository.
-size: Size of the repository.
-license: License associated with the repository.
-stargazers_count: Number of stars received by the repository.
-fork: Indicates whether the repository is a fork.
-owner_id: ID of the owner of the repository.
-created_at: Timestamp of repository creation.
-pushed_at: Timestamp of the last push operation to the repository.
-updated_at: Timestamp of the latest change to the repository.
-has_wiki: Indicates if the repository has a wiki document.
-open_issues: Number of open issues in the repository.
-language: Programming language used in the repository.
-forks_count: Number of forks of the repository.
-default_branch: Default branch of the repository.
+- full_name: Full name of the repository.
+- id: Repository ID allocated by GitHub.
+- description: Description of the repository.
+- size: Size of the repository.
+- license: License associated with the repository.
+- stargazers_count: Number of stars received by the repository.
+- fork: Indicates whether the repository is a fork.
+- owner_id: ID of the owner of the repository.
+- created_at: Timestamp of repository creation.
+- pushed_at: Timestamp of the last push operation to the repository.
+- updated_at: Timestamp of the latest change to the repository.
+- has_wiki: Indicates if the repository has a wiki document.
+- open_issues: Number of open issues in the repository.
+- language: Programming language used in the repository.
+- forks_count: Number of forks of the repository.
+- default_branch: Default branch of the repository.
 
 ### Commit Table
-commit_at: Timestamp of code submission.
-generate_at: Timestamp of author committing code changes.
-committer_id: ID of the committer.
-author_id: ID of the author.
-repo_name: Name of the committed repository.
-repo_id: ID of the committed repository.
-repo_description: Description of the committed repository.
-repo_owner_id: ID of the owner of the committed repository.
+- commit_at: Timestamp of code submission.
+- generate_at: Timestamp of author committing code changes.
+- committer_id: ID of the committer.
+- author_id: ID of the author.
+- repo_name: Name of the committed repository.
+- repo_id: ID of the committed repository.
+- repo_description: Description of the committed repository.
+- repo_owner_id: ID of the owner of the committed repository.
 
 
 ## How to Engage
