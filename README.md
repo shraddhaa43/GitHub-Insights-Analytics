@@ -68,7 +68,7 @@ We invite you to be a part of this enlightening journey:
 1. **Clone the Repository**: Begin by cloning this repository to your local machine.
 2. **Explore the Code**: Dive into the codebase to understand our data processing pipelines, analytical methods, and visualization techniques.
 3. **Contribute**: Whether you're a novice or an expert, your contributions are valuable. Check out our [Contributing Guidelines](CONTRIBUTING.md) to get started.
-4. **Connect**: Have questions or insights to share? Reach out to us at [your.email@example.com]. Collaboration and knowledge sharing are the pillars of this project.
+4. **Connect**: Have questions or insights to share? Reach out to us at [shraddha4320@gmail.com]. Collaboration and knowledge sharing are the pillars of this project.
 
 ## Project Impact
 
