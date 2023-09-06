@@ -56,6 +56,10 @@ For a comprehensive understanding of GitHub's ecosystem, analyze user profiles, 
 - repo_description: Description of the committed repository.
 - repo_owner_id: ID of the owner of the committed repository.
 
+## Technologies Used:
+- AWS: S3, RDS, GLUE, ATHENA, CFT
+- POWER BI
+- PYTHON 
 
 ## How to Engage
 
