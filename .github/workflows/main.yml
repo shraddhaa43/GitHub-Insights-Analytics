@@ -35,6 +35,8 @@ jobs:
           AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
 
 
+          
+
 
 
           
