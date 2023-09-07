@@ -37,7 +37,7 @@ Resources:
         Type: AWS::S3::Bucket
         DeletionPolicy: Delete
         Properties:
-            BucketName: datalakegroup04
+            BucketName: datalake-rawzone-grp4
 
     MyS3Bucket1:
         Type: AWS::S3::Bucket
@@ -86,7 +86,7 @@ Resources:
             DatabaseName:  gitdatabase
             Targets:
                 S3Targets:
-                    - Path: s3://datalakegroup04/datawarehouse/
+                    - Path: s3://datalake-rawzone-grp4/structure/
             Role: arn:aws:iam::467280971091:role/LabRole
     
   
@@ -129,5 +129,5 @@ Resources:
                 PublishCloudWatchMetricsEnabled: true
                 RequesterPaysEnabled: true
                 ResultConfiguration:
-                    OutputLocation: s3://outputgroup04/Query/    
+                    OutputLocation: s3://output-grp4/Query/    
 
